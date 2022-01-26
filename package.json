@@ -1,0 +1,37 @@
+{
+  "name": "tests-for-euriklis-message",
+  "version": "1.0.0",
+  "description": "tests for the @euriklis/message package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VelislavKarastoychev/tests-for-euriklis-message.git"
+  },
+  "keywords": [
+    "@euriklis/message"
+  ],
+  "author": "Velislav Karastoychev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VelislavKarastoychev/tests-for-euriklis-message/issues"
+  },
+  "homepage": "https://github.com/VelislavKarastoychev/tests-for-euriklis-message#readme",
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@euriklis/message": "^2.0.0",
+    "@euriklis/validator": "^1.2.2"
+  }
+}
