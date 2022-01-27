@@ -150,6 +150,7 @@ const testAllMethods = () => {
         .append_math_natural_numbers_symbol().reset().log();
     new message().set_color_blue().append(' This message begins with the natural numbers symbol.')
         .prepend_math_natural_numbers_symbol().reset().log();
+    
 }
 const runAllMethodTests = new Promise((resolve, reject) => {
     try {
